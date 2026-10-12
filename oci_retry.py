@@ -21,7 +21,7 @@ INSTANCE_NAME = "zago-arm-server"
 ARM_OCPUS = 2
 ARM_MEMORY_IN_GBS = 12
 BOOT_VOLUME_SIZE_IN_GBS = 200
-RETRY_INTERVAL = 90  # seconds
+RETRY_INTERVAL = 60  # seconds
 # ────────────────────────────────────────────────────────
 
 # ─── OCI Authentication ──────────────────────────────────
