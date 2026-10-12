@@ -14,13 +14,13 @@ import datetime
 
 # ─── Configuration ───────────────────────────────────────
 COMPARTMENT_ID = (
-    "ocid1.tenancy.oc1..aaaaaaaame2wavybpt5wxnnopgusqj35fwnvccawpiposijrdxwveinl7ypq"  # Replace with your tenancy OCID
+    "ocid1.tenancy.oc1..aaaaaaaa2h32kfvrzmuigjnuyob6qmyvzttrrhjbop6cxsy3adu45szyhoka"  # Replace with your tenancy OCID
 )
-SSH_PUBLIC_KEY = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzKCJRD5xGPxGb1a3rFqV+DOWyzd1g4AGwKylfojws8zDB0Q5fVVmH0HVlbwpMVN8w4CHlPbQR+o9Tsfcz+yG/dAuyhA7fX47TFoFhElFm37dC5nSt4f7H1inB+PL/8634+e03FdqT+5gn7JzoiZamJgWrIS6BAjdoQHAvzb6v4kndeh8/EO1KxpdpYs325S+DVKZsf7ZuH41S4BC63IKlu06XK3AEbuFXIlIKrgwnNLD+yYrBgnLU8XsdVGZ4CNy+LJqEAiiKgjq5O8ams5IkWIZ50kX4MrfuQ0VqGp8q9E5m8kTE88CjJ5U9h4lZdTLNEYcl5HrHwMjix9wvdC+Z administrator@DESKTOP-OPJRFPB"  # Replace with your SSH public key (.pub file content)
+SSH_PUBLIC_KEY = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDIkOcUxgYIgLl4zrw9LAG+V19LXobq9GlePQVZYg8op4s25aisFt4dod+Z/WW7z3LAVGAM81GYSKuiCaCGlLaLaRTeTz4p4CrC5lk5RW+yLyx7mESmpFjAnVaPMkXCEcm9D7DIVCgDC7AVLeIqdgRz0CtxSW2li4mMYdVYpBO8Zm3CcreDE6qU6fe4uAQi2TcywPYn2muhcc/8clDLBl/iSM2YRcQSkWFHU0sjienBDNUzokJPnLcshwbnGtossIS7vQcVoi9fUzRebnxxxjfJNtJPOh0yztdmmsj9RLkR3FJOEMMJJioHYIGrbFHdqQoSFyY/JIQFLygxL5Jp1umh ssh-key-2026-10-12"  # Replace with your SSH public key (.pub file content)
 INSTANCE_NAME = "arm-server"
 ARM_OCPUS = 2
 ARM_MEMORY_IN_GBS = 12
-BOOT_VOLUME_SIZE_IN_GBS = 100
+BOOT_VOLUME_SIZE_IN_GBS = 200
 RETRY_INTERVAL = 90  # seconds
 # ────────────────────────────────────────────────────────
 
