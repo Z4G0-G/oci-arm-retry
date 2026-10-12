@@ -28,9 +28,9 @@ jobs:
 
       - name: Set up OCI credentials
         env:
-          OCI_USER:        ${{ secrets.OCI_USER_OCID }}
+          OCI_USER:        ${{ secrets.OCI_USER }}
           OCI_FINGERPRINT: ${{ secrets.OCI_FINGERPRINT }}
-          OCI_TENANCY:     ${{ secrets.OCI_TENANCY_OCID }}
+          OCI_TENANCY:     ${{ secrets.OCI_TENANCY }}
           OCI_REGION:      ${{ secrets.OCI_REGION }}
           OCI_PRIVATE_KEY: ${{ secrets.OCI_PRIVATE_KEY }}
         run: |
